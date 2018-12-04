@@ -1,0 +1,34 @@
+{
+  "name": "r6api",
+  "version": "1.12.2",
+  "description": "Module to query UbiSoft's web API",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "typings": "types/typings.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/gitgudscrub/r6api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/gitgudscrub/r6api/issues"
+  },
+  "homepage": "https://gitlab.com/gitgudscrub/r6api#readme",
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "ensure-array": "0.0.5",
+    "lodash": "^4.13.1",
+    "moment": "^2.17.1",
+    "notsofast": "^1.0.1",
+    "request": "^2.72.0",
+    "require-all": "^2.0.0",
+    "subclass-error": "^0.1.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  }
+}
