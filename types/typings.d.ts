@@ -27,7 +27,7 @@ declare module "r6api" {
         getStats: (...ids: string[]) => Promise<IStats[]>
         getAuthToken: () => Promise<String>
     }
-    function apiInit(config: IConfig): IApi;
+    function apiInit(config: {email: string, password: string}, loggerSettings: {logLevel: number}): IApi;
     namespace apiInit {}
     export = apiInit;
 }
