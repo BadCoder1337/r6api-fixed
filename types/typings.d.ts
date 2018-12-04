@@ -1,5 +1,3 @@
-///<reference path="./promise.d.ts" />
-
 declare module "r6api" {
     interface IConfig{
         email: string;
@@ -20,7 +18,7 @@ declare module "r6api" {
         matchesWon: number,
         matchesLost: number,
         kills: number,
-        deaths: number 
+        deaths: number
     }
     interface IApi{
         findByName: (name: string) => Promise<IIdentification[]>;
