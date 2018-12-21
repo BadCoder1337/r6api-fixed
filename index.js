@@ -1,7 +1,7 @@
 const config = require('./config');
 const _ = require('lodash');
 
-module.exports = function (conf, loggerSettings) {
+module.exports.default = function (conf, loggerSettings) {
 	if (loggerSettings) {
 		let logger = require('./lib/logger');
 		logger.logLevel = loggerSettings.logLevel || 2,
