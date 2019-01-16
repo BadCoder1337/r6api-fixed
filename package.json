@@ -1,6 +1,6 @@
 {
   "name": "r6api",
-  "version": "1.12.2",
+  "version": "1.13.2",
   "description": "Module to query UbiSoft's web API",
   "main": "index.js",
   "scripts": {
