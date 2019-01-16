@@ -56,7 +56,7 @@ declare module "r6api" {
         getRanks: (...ids: UUID[]) => Promise<IRanks[]>
         getStats: (...ids: UUID[]) => Promise<IStats[]>
         getAuthToken: () => Promise<String>,
-        queue: (ids: UUID[], fn: (...ids: UUID[]) => Promise<M>) => Promise<M>,
+        queue: <M>(ids: UUID[], fn: (...ids: UUID[]) => Promise<M>) => Promise<M>,
     }
 
     export default function apiInit(config: {email: string, password: string}, loggerSettings: {logLevel: number}): IR6Api;
