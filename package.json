@@ -9,14 +9,14 @@
   "typings": "types/typings.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/gitgudscrub/r6api.git"
+    "url": "git+https://github.com/BadCoder1337/r6api-fixed.git"
   },
-  "author": "",
+  "author": "https://github.com/r6db/",
   "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.com/gitgudscrub/r6api/issues"
+    "url": "https://github.com/BadCoder1337/r6api-fixed/issues"
   },
-  "homepage": "https://gitlab.com/gitgudscrub/r6api#readme",
+  "homepage": "https://github.com/BadCoder1337/r6api-fixed",
   "dependencies": {
     "bluebird": "^3.4.1",
     "ensure-array": "0.0.5",
