@@ -1,3 +1,5 @@
+import { platform } from "os";
+
 declare module "r6api" {
     export type UUID = string;
 
@@ -46,6 +48,25 @@ declare module "r6api" {
         skill_stdev: number,
         losses: number,
         max_rank: number,
+    }
+
+    interface ILinkConstants {
+        url: string,
+        levelUrl: string,
+        reverseUrl: string,
+        timeUrl: string,
+        statsUrl: string,
+        rankUrl: string,
+        loginUrl: string,
+    }
+
+    interface IConfig {
+        email: string,
+        password: string,
+        platform?: 'psn' | 'xbl' | 'uplay',
+        psn?: ILinkConstants,
+        xbl?: ILinkConstants,
+        uplay?: ILinkConstants,
     }
 
     export interface IR6Api{
